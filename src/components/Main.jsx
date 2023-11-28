@@ -1,14 +1,15 @@
 function Main() {
     return (
         <main>
-            <div>  We are launching soon!
+            <h2>We are launching soon!</h2>
+            <p>Subscribe and get notified</p>
+            <div>
+                <input type="text" />
+                <button type="submit">Notify Me</button>
+            </div>
 
-            Subscribe and get notified
-        
-            Notify Me
         
             &copy; Copyright Ping. All rights reserved.
-            </div>
         </main>
     )
 }
